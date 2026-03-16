@@ -12,7 +12,7 @@ import { RadarChart, Radar, PolarGrid, PolarAngleAxis, ResponsiveContainer } fro
 //  OR set VITE_GEMINI_KEY in a .env file at the project root.
 // ─────────────────────────────────────────────
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-const OZSCAN_GEMINI_KEY: string = (import.meta as any).env?.VITE_GEMINI_KEY ?? "";
+const OZSCAN_GEMINI_KEY: string = (import.meta as any).env?.VITE_GEMINI_KEY ?? "AIzaSyCUw2Bz2_3LQwPRjaIO7Bog-_ZX53i_RxA";
 
 const GEMINI_ENDPOINT =
   'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent';
